@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Getting and Cleaning Data COurse Project
+# Getting and Cleaning Data Course Project
 
 This file describes how run_analysis.R script works.
 
