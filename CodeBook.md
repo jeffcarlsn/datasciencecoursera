@@ -33,6 +33,79 @@ The code has several sections:
 * Creating aggregated means of measurements for each subject and activity 
 * Writing final data to text file
 
+## Variables
+### Identity Variables
+* SubjectId - The ID assigned to the subject being tested
+* ActivityId - The activity that was being performed when the measurement was taken
+              (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
+### Measures
+* TimeBodyAccelerometer-Mean-X
+* TimeBodyAccelerometer-Mean-Y
+* TimeBodyAccelerometer-Mean-Z
+* TimeBodyAccelerometer-StdDev-X
+* TimeBodyAccelerometer-StdDev-Y
+* TimeBodyAccelerometer-StdDev-Z
+* TimeGravityAccelerometer-Mean-X
+* TimeGravityAccelerometer-Mean-Y
+* TimeGravityAccelerometer-Mean-Z
+* TimeGravityAccelerometer-StdDev-X
+* TimeGravityAccelerometer-StdDev-Y
+* TimeGravityAccelerometer-StdDev-Z
+* TimeBodyAccelerometerJerk-Mean-X
+* TimeBodyAccelerometerJerk-Mean-Y
+* TimeBodyAccelerometerJerk-Mean-Z
+* TimeBodyAccelerometerJerk-StdDev-X
+* TimeBodyAccelerometerJerk-StdDev-Y
+* TimeBodyAccelerometerJerk-StdDev-Z
+* TimeBodyGyroscope-Mean-X
+* TimeBodyGyroscope-Mean-Y
+* TimeBodyGyroscope-Mean-Z
+* TimeBodyGyroscope-StdDev-X
+* TimeBodyGyroscope-StdDev-Y
+* TimeBodyGyroscope-StdDev-Z
+* TimeBodyGyroscopeJerk-Mean-X
+* TimeBodyGyroscopeJerk-Mean-Y
+* TimeBodyGyroscopeJerk-Mean-Z
+* TimeBodyGyroscopeJerk-StdDev-X
+* TimeBodyGyroscopeJerk-StdDev-Y
+* TimeBodyGyroscopeJerk-StdDev-Z
+* TimeBodyAccelerometerMagnitude-Mean
+* TimeBodyAccelerometerMagnitude-StdDev
+* TimeGravityAccelerometerMagnitude-Mean
+* TimeGravityAccelerometerMagnitude-StdDev
+* TimeBodyAccelerometerJerkMagnitude-Mean
+* TimeBodyAccelerometerJerkMagnitude-StdDev
+* TimeBodyGyroscopeMagnitude-Mean
+* TimeBodyGyroscopeMagnitude-StdDev
+* TimeBodyGyroscopeJerkMagnitude-Mean
+* TimeBodyGyroscopeJerkMagnitude-StdDev
+* FrequencyBodyAccelerometer-Mean-X
+* FrequencyBodyAccelerometer-Mean-Y
+* FrequencyBodyAccelerometer-Mean-Z
+* FrequencyBodyAccelerometer-StdDev-X
+* FrequencyBodyAccelerometer-StdDev-Y
+* FrequencyBodyAccelerometer-StdDev-Z
+* FrequencyBodyAccelerometerJerk-Mean-X
+* FrequencyBodyAccelerometerJerk-Mean-Y
+* FrequencyBodyAccelerometerJerk-Mean-Z
+* FrequencyBodyAccelerometerJerk-StdDev-X
+* FrequencyBodyAccelerometerJerk-StdDev-Y
+* FrequencyBodyAccelerometerJerk-StdDev-Z
+* FrequencyBodyGyroscope-Mean-X
+* FrequencyBodyGyroscope-Mean-Y
+* FrequencyBodyGyroscope-Mean-Z
+* FrequencyBodyGyroscope-StdDev-X
+* FrequencyBodyGyroscope-StdDev-Y
+* FrequencyBodyGyroscope-StdDev-Z
+* FrequencyBodyAccelerometerMagnitude-Mean
+* FrequencyBodyAccelerometerMagnitude-StdDev
+* FrequencyBodyAccelerometerJerkMagnitude-Mean
+* FrequencyBodyAccelerometerJerkMagnitude-StdDev
+* FrequencyBodyGyroscopeMagnitude-Mean
+* FrequencyBodyGyroscopeMagnitude-StdDev
+* FrequencyBodyGyroscopeJerkMagnitude-Mean
+* FrequencyBodyGyroscopeJerkMagnitude-StdDev
 
 ### Reading and manipulating "train and "test" data
 
