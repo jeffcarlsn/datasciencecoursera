@@ -5,15 +5,11 @@ date: "September 5, 2016"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-# Code Book
+# Code Book for Getting and Cleaning Data Course Project
 
 This document describes the code inside `run_analysis.R`. It explains the source of data, transformations, and outputs created for the Getting and Cleaning Data course final assignment.
 
-# Source of date
+# Source of data
 
 A full description is available at the site where the data was obtained:
 
