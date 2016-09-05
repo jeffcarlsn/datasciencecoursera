@@ -74,4 +74,6 @@
 # (5) create aggregated means of measurements for each subject and activity and create output file               
     averages <-aggregate(MeanAndStdCols[,3:81],by=MeanAndStdCols[c("subject","activity")],
                          FUN=mean,drop=FALSE,na.rm=TRUE)
-    write.csv(averages,file='averages.csv')
+    averages <- averages[,2:81]
+    
+    write.table(averages,file='averages.txt',row.names = FALSE)
