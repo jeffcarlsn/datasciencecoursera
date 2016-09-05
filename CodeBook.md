@@ -31,7 +31,7 @@ The code has several sections:
 * Replacing activity numbers with activity labels
 * Subsetting the dataframe to only those measures that are either means or standard deviations
 * Creating aggregated means of measurements for each subject and activity 
-* Writing final data to CSV
+* Writing final data to text file
 
 
 ### Reading and manipulating "train and "test" data
@@ -70,6 +70,6 @@ At this point the final data frame `averages` looks like this:
 3       3   LAYING         0.2755169       -0.01895568        -0.1013005
 
 
-## Writing final data to CSV
+## Writing final data to text file
 
-Writes `averages` data frame to the outputfile `averages.csv`.
+Writes `averages` data frame to the outputfile `averages.txt`.
