@@ -35,8 +35,8 @@ The code has several sections:
 
 ## Variables
 ### Identity Variables
-* SubjectId - The ID assigned to the subject being tested
-* ActivityId - The activity that was being performed when the measurement was taken
+* subject - The ID assigned to the subject being tested
+* activity - The activity that was being performed when the measurement was taken
               (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 ### Measures
